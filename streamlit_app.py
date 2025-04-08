@@ -12,7 +12,7 @@ if 'history' not in st.session_state:
 
 st.sidebar.header('Groq API 변수입력')
 input_api_key = st.sidebar.text_input('당신의 groq api키를 입력해주세요.',type="password")
-input_model_type = st.sidebar.selectbox('api model 선택',['llama3-70b-8192','deepseek-r1-distill-qwen-32b'])
+input_model_type = st.sidebar.selectbox('api model 선택해주세요.',['llama3-70b-8192','deepseek-r1-distill-qwen-32b'])
 
 
 
