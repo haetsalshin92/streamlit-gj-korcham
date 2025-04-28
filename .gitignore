@@ -128,3 +128,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# .env 파일을 Git에 포함시키지 않음
+.env
+
+# Python bytecode 파일도 무시
+__pycache__/
+*.pyc
+*.pyo
